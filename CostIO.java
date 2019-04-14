@@ -36,7 +36,7 @@ public class CostIO {
                                        if(total_rem<min){
                                              System.out.println("Alert");
                                              break;}
-                                     System.out.println("Enter details of another journey y/n");
+                                     System.out.println("Enter details of another journey 1 for yes/0 for no");
                                      double status2=sc.nextDouble();
                                      if(status2==1)
                                          continue;
